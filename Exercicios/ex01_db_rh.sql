@@ -7,7 +7,7 @@ CREATE TABLE tb_colaboradores(
     nome VARCHAR(100) NOT NULL,
     cpf CHAR(14) NOT NULL,
     data_admissao DATE NOT NULL,
-    cargo CHAR(50) NOT NULL,
+    cargo VARCHAR(50) NOT NULL,
     salario_base DECIMAL(9,2) NOT NULL
 );
 

@@ -4,7 +4,7 @@ USE db_produtos;
 
 CREATE TABLE tb_produtos(
 	id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    nome CHAR(50) NOT NULL,
+    nome VARCHAR(50) NOT NULL,
     descricao TEXT NOT NULL,
     preco DECIMAL(10,2) NOT NULL,
     quantidade_estoque INT NOT NULL 
